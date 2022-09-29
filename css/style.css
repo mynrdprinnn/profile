@@ -5,6 +5,7 @@
     font-family: 'Prompt', sans-serif;
   }
 
+/*  HOME PAGE/MAIN PAGE  */
 .main {
     font-family: 'Averia Serif Libre', cursive;
     color:rgb(255, 255, 255);
@@ -114,4 +115,67 @@ nav ul li a {
 nav ul li a:hover {
     color: red;
     transition: 0.3s;
+}
+
+/*   BLOGS / PORTFOLIOS    */
+
+caption {
+  font-size: 30px;
+  padding-bottom: 10px;
+  color: white;
+}
+table {
+  text-align: left;
+  position: relative;
+  border-collapse: collapse; 
+  background-color: white;
+  opacity: 70%;
+}
+td, th {
+  color: black;
+  border: 1px solid #999;
+  padding: 20px;
+}
+th {
+  background: 10px solid rgba(255,255,255,.5);
+  color:  white;
+  border-radius: 0;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+}
+.primary{
+  background-color: #000000
+}
+
+tfoot > tr  {
+  background: black;
+  color: white;
+}
+tbody > tr:hover {
+  background-color:black;
+  transition: 1.5s;
+}
+
+td, th:hover {
+  color: white;
+}
+
+.feature {
+    font-family: 'Averia Serif Libre', cursive;
+    color:rgb(255, 255, 255);
+}
+
+/*  ABOUT AND CONTACT US  */
+
+#about {
+  margin: 0px 100px;
+  background-color: 10px solid rgba(255,255,255,.5);
+  padding: 20px;
+}
+
+#contact {
+  margin: 0px 100px;
+  background-color: 10px solid rgba(255,255,255,.5);
+  padding: 20px;
 }
