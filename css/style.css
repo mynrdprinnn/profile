@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
+
+*{
+    font-family: 'Prompt', sans-serif;
+  }
+
+.main {
+    font-family: 'Averia Serif Libre', cursive;
+    color:rgb(255, 255, 255);
+}
+  
+  body {
+    background: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 20% 80%;
+  }
+  
+  #wrapper {
+    margin: 0px 100px;
+    background-color: 10px solid rgba(255,255,255,.5);
+    padding: 20px;
+  }
+
+  p {
+    color: white;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+    font-variant: small-caps;
+    opacity: 100%;
+    color: white;
+  }
+  h1{
+    font-size: 300%;
+  }
+  
+  footer {
+    margin: 0px 100px 100px 100px;
+    background-color: rgba(0, 0, 0, 100%);
+    padding: 20px;
+    color: white;
+  }
+
+.images {
+    display: block;
+    margin: 0 auto;
+    width: 640px;
+    height: 360px;
+    opacity: 85%;
+}
+
+.images:hover {
+    transform: scale(1.01);
+    transition: 1.3s;
+}
+
+
+hr {
+    overflow: visible; 
+    padding: 0;
+    border: none;
+    border-top: medium double rgb(255, 252, 252);
+    color: rgb(255, 251, 251);
+    text-align: center;
+}
+
+hr::after {
+      content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: none;
+}
+
+.nav_menu {
+  font-family: 'Prompt', sans-serif;
+  display: inline-block;
+  padding: 1rem 3.8rem;
+  margin-bottom: 2rem;
+  background-color: #bd0707;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.nav_menu:hover {    
+    background: #850808;
+      
+}
