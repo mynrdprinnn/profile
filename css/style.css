@@ -80,6 +80,8 @@ hr::after {
     background: none;
 }
 
+/*  NAVIGATIONS   */
+
 nav {
     display: flex;
     align-items: center;
@@ -166,16 +168,111 @@ td, th:hover {
     color:rgb(255, 255, 255);
 }
 
-/*  ABOUT AND CONTACT US  */
+/*  ABOUT  */
 
 #about {
-  margin: 0px 100px;
-  background-color: 10px solid rgba(255,255,255,.5);
+  margin: 0px 120px;
+  background-image: url(../images/bg-about.jpg);
+  opacity: 90%;
   padding: 20px;
 }
 
-#contact {
-  margin: 0px 100px;
-  background-color: 10px solid rgba(255,255,255,.5);
-  padding: 20px;
+h2.name {
+  font-weight: bold;
+}
+
+.profile {
+  display: block;
+  margin: 0 auto;
+  width: 360px;
+  height: 360px;
+  opacity: 85%;
+  border-radius: 50%;
+  opacity: 85%;
+  padding-bottom: 30px;
+}
+
+.profile:hover {
+    transform: scale(1.01);
+    transition: 1.3s;
+}
+
+p.profile {
+  font-size: 1rem;
+  color: white;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/*  CONTACT US  */
+
+.contact-box {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 3rem 3rem;
+  text-align: center;
+  background: 10px solid rgba(255,255,255,.5);
+  background-attachment: scroll;
+  background-repeat:no-repeat;
+  background-position: 0 0;
+  background-size: 100% 100%;
+}
+
+p.con-details {
+  font-size: 1rem;
+  color: black;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+  opacity: 100%;
+}
+
+.con-details{
+  max-width: 400px;
+  max-height: min-content;
+  margin: 20px 20px 20px 20px;
+  padding: 5px 5px 5px 5px;
+  display: inline-block;
+  background-color: lightgray;
+  opacity: 70%;
+  box-sizing: border-box;
+}
+
+.con-details:hover {
+  opacity: 100%;
+  transition: 1.5s;
+}
+
+.contact-img{
+  padding: 30px;
+  padding-top: 40px;
+  width: 85px;
+  height: 85px;
+}
+
+h3.contact-main {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 2px;
+  font-size: 150%;
+}
+
+p.con-intro {
+  padding-left: 250px;
+  padding-top: 40px;
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 170%;
+}
+
+p.con-sub-intro {
+  padding-left: 250px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 125%;
+}
+
+.number {
+  font-family: 'Prompt', sans-serif;
+  color: rgb(34, 165, 209);
+  font-size: 130%;
 }
